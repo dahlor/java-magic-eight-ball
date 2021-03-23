@@ -49,4 +49,16 @@ public class Menu {
 		out.print("\nPlease choose an option >>> ");
 		out.flush();
 	}
-}
+	
+	public void askYourQuestion() {
+		out.print("\nPlease ask your question >>> ");
+		out.flush();
+		in.nextLine();
+		}
+
+	public void pressEnter() {
+		out.print("* * * * * * * PRESS ENTER TO CONTINUE * * * * * * *");
+		out.flush();
+		in.nextLine();
+		}
+	}
