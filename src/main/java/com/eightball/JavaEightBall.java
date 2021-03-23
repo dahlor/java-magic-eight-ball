@@ -48,8 +48,6 @@ public class JavaEightBall {
 		asciiEightBall();
 		menu.pressEnter();
 	}
-	
-	
 		
 	private void displayApplicationBanner() {
 		System.out.println();
